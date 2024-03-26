@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: helloworld
+Version: 0.0.0
+Summary: test package
+Author: fauzan
+Author-email: fauzan@xxx.com}
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: moto; extra == "dev"
+Requires-Dist: tox; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+
+# hello world
